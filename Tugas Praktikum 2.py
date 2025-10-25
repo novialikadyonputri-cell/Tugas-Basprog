@@ -104,32 +104,32 @@
 #print('Derajat Fahrenheit =', Fahrenheit)
 #print('Derajat Kelvin =', Kelvin)
 
-# Konversi Suhu (C, R, F, K, Rankine)
+Konversi Suhu (C, R, F, K, Rankine)
 
-#print("=== Program Konversi Suhu ===")
-#print("Pilih input suhu:")
-#print("1. Celcius (C)")
-#print("2. Reamur (R)")
-#print("3. Fahrenheit (F)")
-#print("4. Kelvin (K)")
-#print("5. Rankine (Ra)")
+print("=== Program Konversi Suhu ===")
+print("Pilih input suhu:")
+print("1. Celcius (C)")
+print("2. Reamur (R)")
+print("3. Fahrenheit (F)")
+print("4. Kelvin (K)")
+print("5. Rankine (Ra)")
 
-#pilih = int(input("Masukkan pilihan (1-5): "))
-#nilai = float(input("Masukkan nilai suhu: "))
+pilih = int(input("Masukkan pilihan (1-5): "))
+nilai = float(input("Masukkan nilai suhu: "))
 
-#if pilih == 1:  # Input Celcius
-#    C = nilai
-#    R = C * 4/5
-#    F = C * 9/5 + 32
-#    K = C + 273.15
-#    Ra = (C + 273.15) * 9/5
+if pilih == 1:  # Input Celcius
+    C = nilai
+    R = C * 4/5
+    F = C * 9/5 + 32
+    K = C + 273.15
+    Ra = (C + 273.15) * 9/5
 
-#elif pilih == 2:  # Input Reamur
-#    R = nilai
-#    C = R * 5/4
-#    F = R * 9/4 + 32
-#    K = R * 5/4 + 273.15
-#   Ra = (R * 5/4 + 273.15) * 9/5
+elif pilih == 2:  # Input Reamur
+    R = nilai
+    C = R * 5/4
+    F = R * 9/4 + 32
+    K = R * 5/4 + 273.15
+   Ra = (R * 5/4 + 273.15) * 9/5
 
 #elif pilih == 3:  # Input Fahrenheit
 #    F = nilai
